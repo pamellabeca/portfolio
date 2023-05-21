@@ -50,3 +50,53 @@ body{
     font-size: 13px;
     font-weight: 300;
 }
+
+.links{
+    width: 348px;
+    height: 348px;
+    
+    border-radius: 20px;
+    background-color: #302F3D;
+
+    box-shadow: 2px 2px 2px 1px #00000033;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 30px;
+    padding: 10px 0;
+    box-sizing: border-box;
+
+    justify-content: center;
+
+    font-size: 13px;
+    font-weight: 400;
+
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.links li{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.socialmedia{
+    margin-right: 20px;
+    margin-left: 40px;    
+}
+
+
+.links a{
+    color: #837E9F;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*.links ul li a img{
+    margin: 20px 40px 20px 20px ;
+
+}*/
