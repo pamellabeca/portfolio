@@ -1,6 +1,6 @@
 # Pamella Silva - Portfolio
 
-Este é o repositório do meu portfolio pessoal, onde apresento minhas habilidades, experiências e projetos desenvolvidos. Meu portfolio foi criado utilizando HTML, CSS e JavaScript.
+Este é o repositório do meu portfolio pessoal, onde apresento minhas habilidades, experiências e projetos desenvolvidos. Meu portfolio foi criado utilizando HTML, CSS.
 
 ## Visão Geral
 
