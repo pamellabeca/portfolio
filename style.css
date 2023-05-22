@@ -12,7 +12,7 @@ body{
 }
 
 .aside{
-    margin: 40px 20px 0 40px;
+    margin: 40px 20px 20px 40px;
 }
 
 .perfil{
@@ -410,3 +410,74 @@ body{
     color: #837E9F;
 }
 
+.post{
+    display: flex;
+    flex-direction: row;
+
+    width: 952px;
+    height: 201px;
+
+    align-items: center;
+    padding: 30px 30px 42px 30px;
+    margin-top: 30px;
+
+    border-radius: 20px;
+    background-color: #302F3D;
+
+    box-shadow: 2px 2px 2px 1px #00000033;
+    box-sizing: border-box;
+
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+}
+
+.post img{
+    width: 128px;
+    height: 128px;
+
+    border-radius: 50%;
+}
+
+.textoPost{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.textoPost a{
+    margin-bottom: 8px;
+
+    color: #837E9F;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.textoPost .dataPost{
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-bottom: 28px;
+}
+
+.descricaoPost{
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-bottom: 11px;
+}
+
+.hashtags{
+    font-size: 14px;
+    font-weight: 400;
+
+    width: 446px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.hashtags span{
+    margin-right: 25px;
+}
