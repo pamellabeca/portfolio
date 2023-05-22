@@ -6,6 +6,9 @@
 
 body{
     background-color: #22212C;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .aside{
@@ -244,4 +247,143 @@ body{
     flex-direction: column;
     list-style-type: disc;
     margin: 10px 0    
+}
+
+.main{
+    width: 952px;
+    margin: 40px 40px 0 20px
+}
+
+.myProject{
+    display: flex;
+    flex-direction: row;
+
+    width: 952px;
+    height: 86px;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 31px;
+    text-align: center;
+
+    border-radius: 20px;
+    background-color: #302F3D;
+
+    box-shadow: 2px 2px 2px 1px #00000033;
+    box-sizing: border-box;
+
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+}
+
+.myProject .titulo{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.myProject span{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 952px;
+    height: 186px;
+}
+
+.project1{
+    width: 461px;
+    height: 186px;
+
+    border-radius: 20px;
+    background-color: #302F3D;
+
+    box-shadow: 2px 2px 2px 1px #00000033;
+    box-sizing: border-box;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+    
+}
+
+.assets{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 401px;
+    height: 20px;
+
+    justify-content: space-between;
+}
+
+.project1 a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-bottom: 20px;
+
+    color: #837E9F;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.project1 img{
+    margin-right: 16px;
+    width: 20px;
+    height: 20px;
+}
+
+.project1 p{
+    color: #837E9F;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gitsimbolos{
+    width: 128px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gitsimbolos span{
+    margin-right: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gitsimbolos img{
+    width: 20px;
+    height: 20px;
+
+    margin-right: 8px;
+}
+
+.language{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-size: 14px;
+    font-weight: 400;
 }
