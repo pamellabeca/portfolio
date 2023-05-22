@@ -481,3 +481,13 @@ body{
 .hashtags span{
     margin-right: 25px;
 }
+
+.footer{
+    width: 100vw;
+    color: #837E9F;
+
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 20px;
+}
