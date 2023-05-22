@@ -485,6 +485,9 @@ body{
 .footer{
     width: 100vw;
     color: #837E9F;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 
     display: flex;
     justify-content: center;
