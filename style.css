@@ -12,7 +12,7 @@ body{
 }
 
 .aside{
-    margin: 40px;
+    margin: 40px 20px 0 40px;
 }
 
 .perfil{
@@ -251,7 +251,7 @@ body{
 
 .main{
     width: 952px;
-    margin: 40px 40px 0 20px
+    margin: 40px 40px 0 40px
 }
 
 .myProject{
@@ -277,7 +277,7 @@ body{
     color: #837E9F;
 }
 
-.myProject .titulo{
+.titulo{
     font-size: 20px;
     font-weight: 700;
 }
@@ -311,8 +311,7 @@ body{
     flex-direction: column;
 
     font-family: 'Merriweather Sans', sans-serif;
-    color: #837E9F;
-    
+    color: #837E9F;    
 }
 
 .assets{
@@ -387,3 +386,27 @@ body{
     font-size: 14px;
     font-weight: 400;
 }
+
+.recentPosts{
+    display: flex;
+    flex-direction: row;
+
+    width: 952px;
+    height: 86px;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+
+    border-radius: 20px;
+    background-color: #302F3D;
+
+    box-shadow: 2px 2px 2px 1px #00000033;
+    box-sizing: border-box;
+
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+}
+
