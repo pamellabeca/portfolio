@@ -1,9 +1,12 @@
+/* Importando a fonte do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap');
 
+/* Removendo decoração de texto para todos os elementos */
 *{
     text-decoration: none;
 }
 
+/* Estilos para o corpo da página */
 body{
     background-color: #22212C;
     display: flex;
@@ -12,10 +15,12 @@ body{
     padding: 20px;
 }
 
+/* Estilos para a seção 'aside' */
 aside{
     margin-top: 40px;
 }
 
+/* Estilos para o componente 'perfil' dentro de 'aside' */
 aside .perfil{
     width: 348px;
     height: 292px;
@@ -34,6 +39,7 @@ aside .perfil{
     color: #837E9F;
 }
 
+/* Estilos para a imagem dentro de 'perfil' */
 aside .perfil img{
     width: 128px;
     height: 128px;
@@ -42,6 +48,7 @@ aside .perfil img{
     border-radius: 50%;
 }
 
+/* Estilos para o nome dentro de 'perfil' */
 aside .perfil .nome{
     margin: 30px 0 10px 0;
     font-size: 23px;
@@ -50,11 +57,13 @@ aside .perfil .nome{
     width: 196px;
 }
 
+/* Estilos para a profissão dentro de 'perfil' */
 aside .perfil .profissao{
     font-size: 13px;
     font-weight: 300;
 }
 
+/* Estilos para o componente 'links' dentro de 'aside' */
 aside .links{
     width: 348px;
     height: 348px;
@@ -79,6 +88,7 @@ aside .links{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+/* Estilos para os itens da lista dentro de 'links' */
 aside .links ul li{
     display: flex;
     align-items: center;
@@ -86,12 +96,13 @@ aside .links ul li{
     margin: 20px 0;
 }
 
+/* Estilos para os ícones de redes sociais dentro de 'links' */
 aside .links ul li .socialmedia{
     margin-right: 20px;
     margin-left: 40px;    
 }
 
-
+/* Estilos para os links dentro de 'links' */
 aside .links a{
     color: #837E9F;
     text-decoration: none;
@@ -100,6 +111,7 @@ aside .links a{
     align-items: center;
 }
 
+/* Estilos para o título */
 .titulos{
     font-size: 20px;
     font-weight: 700;
@@ -109,7 +121,7 @@ aside .links a{
     color: #837E9F;
 }
 
-
+/* Estilos para o componente 'tecnologias' dentro de 'aside' */
 aside .tecnologias{
     width: 348px;
     height: 208px;
@@ -134,6 +146,7 @@ aside .tecnologias{
     color: #000000;
 }
 
+/* Define o layout flexível para o grupo de tecnologias */
 aside .tecnologias .tecnologiasGrupo{
     display: flex;
     flex-direction: row;
@@ -142,6 +155,7 @@ aside .tecnologias .tecnologiasGrupo{
     justify-content: center;
 }
 
+/* Estilos para cada item dentro do grupo de tecnologias */
 aside .tecnologias .tecnologiasGrupo li{
     background-color: #CB92B1;
     border-radius: 30px;
@@ -155,6 +169,7 @@ aside .tecnologias .tecnologiasGrupo li{
     margin: 0 15px 15px 0;    
 }
 
+/* Estilos para a seção de experiência */
 aside .experiencia{
     width: 348px;
     height: 349px;
@@ -179,12 +194,14 @@ aside .experiencia{
     color: #837E9F;
 }
 
+/* Estilos para a lista de experiências */
 aside .experiencia .experienciaList {
     display: flex;
     flex-direction: column;
     padding-left: 50px;
 }
 
+/* Estilos para cada item na lista de experiências */
 aside .experiencia .experienciaItem {
     display: flex;
     flex-direction: column;
@@ -192,6 +209,7 @@ aside .experiencia .experienciaItem {
     margin: 10px 0    
 }
 
+/* Estilos para o local na lista de experiências */
 aside .experiencia .local{
     font-size: 14px;
     font-weight: 700;
@@ -199,6 +217,7 @@ aside .experiencia .local{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+/* Estilos para a data na lista de experiências */
 aside .experiencia .data{
     font-size: 12px;
     font-weight: 300;
@@ -206,6 +225,7 @@ aside .experiencia .data{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+/* Estilos para os nomes na lista de experiências */
 aside .experiencia .nomes{
     font-size: 12px;
     font-weight: 400;
@@ -213,6 +233,7 @@ aside .experiencia .nomes{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+/* Estilos para a seção de educação */
 aside .educacao{
     width: 348px;
     height: 349px;
@@ -237,12 +258,14 @@ aside .educacao{
     color: #837E9F;
 }
 
+/* Estilos para a lista de educação */
 aside .educacao .educacaoList {
     display: flex;
     flex-direction: column;
     padding-left: 50px;
 }
 
+/* Estilos para cada item na lista de educação */
 aside .educacao .educacaoItem {
     display: flex;
     flex-direction: column;
@@ -250,6 +273,7 @@ aside .educacao .educacaoItem {
     margin: 10px 0     
 }
 
+/* Estilos para o local na seção de educação */
 aside .educacao .local{
     font-size: 14px;
     font-weight: 700;
@@ -257,6 +281,7 @@ aside .educacao .local{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+/* Estilos para a data na seção de educação */
 aside .educacao .data{
     font-size: 12px;
     font-weight: 300;
@@ -264,6 +289,7 @@ aside .educacao .data{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+/* Estilos para os nomes na seção de educação */
 aside .educacao .nomes{
     font-size: 12px;
     font-weight: 400;
@@ -271,11 +297,13 @@ aside .educacao .nomes{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+/* Estilos para a seção principal */
 main{
     max-width: 952px;
     margin: 40px 40px 0 40px
 }
 
+/* Estilos para o elemento .myProject dentro da seção principal */
 main .myProject{
     display: flex;
     flex-direction: row;
@@ -298,16 +326,19 @@ main .myProject{
     color: #837E9F;
 }
 
+/* Estilos para o título dentro do elemento .myProject */
 main .myProject .titulo{
     font-size: 20px;
     font-weight: 700;
 }
 
+/* Estilos para o elemento span dentro do elemento .myProject */
 main .myProject span{
     font-size: 14px;
     font-weight: 400;
 }
 
+/* Estilos para a seção de projetos */
 main .projects{
     display: flex;
     flex-wrap: wrap;
@@ -316,6 +347,7 @@ main .projects{
     max-width: 952px;
 }
 
+/* Estilos para o projeto 1 dentro da seção de projetos */
 main .projects .project1{
     max-width: 461px;
     height: 186px;
@@ -335,6 +367,7 @@ main .projects .project1{
     color: #837E9F;    
 }
 
+/* Estilos para os ativos dentro do projeto 1 */
 main .projects .project1 .assets{
     display: flex;
     flex-direction: row;
@@ -347,6 +380,7 @@ main .projects .project1 .assets{
     justify-content: space-between;
 }
 
+/* Estilos para os links dentro do projeto 1 */
 main .projects .project1 a{
     display: flex;
     flex-direction: row;
@@ -360,12 +394,14 @@ main .projects .project1 a{
     font-weight: 700;
 }
 
+/* Estilos para a imagem dentro do elemento .project1 */
 main .projects .project1 img{
     margin-right: 16px;
     width: 20px;
     height: 20px;
 }
 
+/* Estilos para o parágrafo dentro do elemento .project1 */
 main .projects .project1 p{
     color: #837E9F;
     text-decoration: none;
@@ -378,6 +414,7 @@ main .projects .project1 p{
     margin-bottom: 20px;
 }
 
+/* Estilos para o elemento .gitsimbolos dentro do elemento .project1 */
 main .projects .project1 .gitsimbolos{
     width: 128px;
     display: flex;
@@ -385,6 +422,7 @@ main .projects .project1 .gitsimbolos{
     align-items: center;
 }
 
+/* Estilos para o span dentro do elemento .gitsimbolos */
 main .projects .project1 .gitsimbolos span{
     margin-right: 16px;
     display: flex;
@@ -392,6 +430,7 @@ main .projects .project1 .gitsimbolos span{
     align-items: center;
 }
 
+/* Estilos para a imagem dentro do elemento .gitsimbolos */
 main .projects .project1 .gitsimbolos img{
     width: 20px;
     height: 20px;
@@ -399,6 +438,7 @@ main .projects .project1 .gitsimbolos img{
     margin-right: 8px;
 }
 
+/* Estilos para o elemento .language dentro do elemento .project1 */
 main .projects .project1 .language{
     display: flex;
     flex-direction: row;
@@ -408,6 +448,7 @@ main .projects .project1 .language{
     font-weight: 400;
 }
 
+/* Estilos para a seção de posts recentes */
 main .recentPosts{
     display: flex;
     flex-direction: row;
@@ -431,6 +472,7 @@ main .recentPosts{
     color: #837E9F;
 }
 
+/* Estilos para o elemento .post */
 main .post{
     display: flex;
     flex-direction: row;
@@ -452,6 +494,7 @@ main .post{
     color: #837E9F;
 }
 
+/* Estilos para a imagem dentro do elemento .post */
 main .post img{
     width: 128px;
     height: 128px;
@@ -459,6 +502,7 @@ main .post img{
     border-radius: 50%;
 }
 
+/* Estilos para o elemento .textoPost dentro do elemento .post */
 main .post .textoPost{
     margin-left: 20px;
     display: flex;
@@ -466,6 +510,7 @@ main .post .textoPost{
 
 }
 
+/* Estilos para os links dentro do elemento .textoPost */
 main .post .textoPost a{
     margin-bottom: 8px;
 
@@ -475,6 +520,7 @@ main .post .textoPost a{
     font-weight: 700;
 }
 
+/* Estilos para o elemento .dataPost dentro do elemento .textoPost dentro do elemento .post */
 main .post .textoPost .dataPost{
     font-size: 14px;
     font-weight: 400;
@@ -482,6 +528,7 @@ main .post .textoPost .dataPost{
     margin-bottom: 28px;
 }
 
+/* Estilos para o elemento .descricaoPost dentro do elemento .post */
 main .post .descricaoPost{
     font-size: 16px;
     font-weight: 400;
@@ -489,6 +536,7 @@ main .post .descricaoPost{
     margin-bottom: 11px;
 }
 
+/* Estilos para o elemento .hashtags dentro do elemento .post dentro do elemento .recentPosts */
 main .recentPosts .post .hashtags{
     font-size: 14px;
     font-weight: 400;
@@ -499,10 +547,12 @@ main .recentPosts .post .hashtags{
     flex-direction: row;
 }
 
+/* Estilos para o span dentro do elemento .hashtags dentro do elemento .post dentro do elemento .recentPosts */
 main .recentPosts .post .hashtags span{
     margin-right: 25px;
 }
 
+/* Estilos para o elemento .footer */
 .footer{
     width: 100vw;
     color: #837E9F;
