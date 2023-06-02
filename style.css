@@ -472,6 +472,11 @@ main .recentPosts{
     color: #837E9F;
 }
 
+main .recentPosts .titulo{
+    font-size: 20px;
+    font-weight: 700;
+}
+
 /* Estilos para o elemento .post */
 main .post{
     display: flex;
