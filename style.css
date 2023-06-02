@@ -7,15 +7,16 @@
 body{
     background-color: #22212C;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
 }
 
-.aside{
-    margin: 40px 20px 20px 40px;
+aside{
+    margin-top: 40px;
 }
 
-.perfil{
+aside .perfil{
     width: 348px;
     height: 292px;
     
@@ -33,7 +34,7 @@ body{
     color: #837E9F;
 }
 
-.perfil img{
+aside .perfil img{
     width: 128px;
     height: 128px;
 
@@ -41,7 +42,7 @@ body{
     border-radius: 50%;
 }
 
-.nome{
+aside .perfil .nome{
     margin: 30px 0 10px 0;
     font-size: 23px;
     font-weight: 700;
@@ -49,12 +50,12 @@ body{
     width: 196px;
 }
 
-.profissao{
+aside .perfil .profissao{
     font-size: 13px;
     font-weight: 300;
 }
 
-.links{
+aside .links{
     width: 348px;
     height: 348px;
     
@@ -78,20 +79,20 @@ body{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-.links li{
+aside .links ul li{
     display: flex;
     align-items: center;
     text-align: center;
     margin: 20px 0;
 }
 
-.socialmedia{
+aside .links ul li .socialmedia{
     margin-right: 20px;
     margin-left: 40px;    
 }
 
 
-.links a{
+aside .links a{
     color: #837E9F;
     text-decoration: none;
     display: flex;
@@ -109,7 +110,7 @@ body{
 }
 
 
-.tecnologias{
+aside .tecnologias{
     width: 348px;
     height: 208px;
     
@@ -133,7 +134,7 @@ body{
     color: #000000;
 }
 
-.tecnologiasGrupo{
+aside .tecnologias .tecnologiasGrupo{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -141,7 +142,7 @@ body{
     justify-content: center;
 }
 
-.tecnologiasGrupo li{
+aside .tecnologias .tecnologiasGrupo li{
     background-color: #CB92B1;
     border-radius: 30px;
     width: 86px;
@@ -154,7 +155,7 @@ body{
     margin: 0 15px 15px 0;    
 }
 
-.experiencia{
+aside .experiencia{
     width: 348px;
     height: 349px;
     
@@ -178,43 +179,43 @@ body{
     color: #837E9F;
 }
 
-.experienciaList {
+aside .experiencia .experienciaList {
     display: flex;
     flex-direction: column;
     padding-left: 50px;
 }
 
-.experienciaItem {
+aside .experiencia .experienciaItem {
     display: flex;
     flex-direction: column;
     list-style-type: disc;
     margin: 10px 0    
 }
 
-.local{
+aside .experiencia .local{
     font-size: 14px;
     font-weight: 700;
 
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-.data{
+aside .experiencia .data{
     font-size: 12px;
     font-weight: 300;
 
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-.nomes{
+aside .experiencia .nomes{
     font-size: 12px;
     font-weight: 400;
 
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-.educacao{
+aside .educacao{
     width: 348px;
-    height: 352px;
+    height: 349px;
     
     border-radius: 20px;
     background-color: #302F3D;
@@ -236,30 +237,50 @@ body{
     color: #837E9F;
 }
 
-.educacaoList {
+aside .educacao .educacaoList {
     display: flex;
     flex-direction: column;
     padding-left: 50px;
 }
 
-.educacaoItem {
+aside .educacao .educacaoItem {
     display: flex;
     flex-direction: column;
     list-style-type: disc;
-    margin: 10px 0    
+    margin: 10px 0     
 }
 
-.main{
-    width: 952px;
+aside .educacao .local{
+    font-size: 14px;
+    font-weight: 700;
+
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+aside .educacao .data{
+    font-size: 12px;
+    font-weight: 300;
+
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+aside .educacao .nomes{
+    font-size: 12px;
+    font-weight: 400;
+
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+main{
+    max-width: 952px;
     margin: 40px 40px 0 40px
 }
 
-.myProject{
+main .myProject{
     display: flex;
     flex-direction: row;
 
-    width: 952px;
-    height: 86px;
+    max-width: 952px;
 
     justify-content: space-between;
     align-items: center;
@@ -277,29 +298,29 @@ body{
     color: #837E9F;
 }
 
-.titulo{
+main .myProject .titulo{
     font-size: 20px;
     font-weight: 700;
 }
 
-.myProject span{
+main .myProject span{
     font-size: 14px;
     font-weight: 400;
 }
 
-.projects{
+main .projects{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 
-    width: 952px;
-    height: 186px;
+    max-width: 952px;
 }
 
-.project1{
-    width: 461px;
+main .projects .project1{
+    max-width: 461px;
     height: 186px;
 
+    margin-top: 20px;
     border-radius: 20px;
     background-color: #302F3D;
 
@@ -314,19 +335,19 @@ body{
     color: #837E9F;    
 }
 
-.assets{
+main .projects .project1 .assets{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
-    width: 401px;
+    max-width: 401px;
     height: 20px;
 
     justify-content: space-between;
 }
 
-.project1 a{
+main .projects .project1 a{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -339,13 +360,13 @@ body{
     font-weight: 700;
 }
 
-.project1 img{
+main .projects .project1 img{
     margin-right: 16px;
     width: 20px;
     height: 20px;
 }
 
-.project1 p{
+main .projects .project1 p{
     color: #837E9F;
     text-decoration: none;
     font-size: 14px;
@@ -357,28 +378,28 @@ body{
     margin-bottom: 20px;
 }
 
-.gitsimbolos{
+main .projects .project1 .gitsimbolos{
     width: 128px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.gitsimbolos span{
+main .projects .project1 .gitsimbolos span{
     margin-right: 16px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.gitsimbolos img{
+main .projects .project1 .gitsimbolos img{
     width: 20px;
     height: 20px;
 
     margin-right: 8px;
 }
 
-.language{
+main .projects .project1 .language{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -387,11 +408,11 @@ body{
     font-weight: 400;
 }
 
-.recentPosts{
+main .recentPosts{
     display: flex;
     flex-direction: row;
 
-    width: 952px;
+    max-width: 952px;
     height: 86px;
 
     justify-content: space-between;
@@ -410,14 +431,14 @@ body{
     color: #837E9F;
 }
 
-.post{
+main .post{
     display: flex;
     flex-direction: row;
 
-    width: 952px;
-    height: 201px;
+    max-width: 952px;
+    max-height: 100%;
 
-    align-items: center;
+    align-items:flex-start;
     padding: 30px 30px 42px 30px;
     margin-top: 30px;
 
@@ -431,21 +452,21 @@ body{
     color: #837E9F;
 }
 
-.post img{
+main .post img{
     width: 128px;
     height: 128px;
 
     border-radius: 50%;
 }
 
-.textoPost{
+main .post .textoPost{
     margin-left: 20px;
     display: flex;
     flex-direction: column;
 
 }
 
-.textoPost a{
+main .post .textoPost a{
     margin-bottom: 8px;
 
     color: #837E9F;
@@ -454,21 +475,21 @@ body{
     font-weight: 700;
 }
 
-.textoPost .dataPost{
+main .post .textoPost .dataPost{
     font-size: 14px;
     font-weight: 400;
 
     margin-bottom: 28px;
 }
 
-.descricaoPost{
+main .post .descricaoPost{
     font-size: 16px;
     font-weight: 400;
 
     margin-bottom: 11px;
 }
 
-.hashtags{
+main .recentPosts .post .hashtags{
     font-size: 14px;
     font-weight: 400;
 
@@ -478,7 +499,7 @@ body{
     flex-direction: row;
 }
 
-.hashtags span{
+main .recentPosts .post .hashtags span{
     margin-right: 25px;
 }
 
@@ -492,5 +513,5 @@ body{
     display: flex;
     justify-content: center;
     
-    margin-bottom: 20px;
+    margin: 20px;
 }
