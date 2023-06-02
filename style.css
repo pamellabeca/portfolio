@@ -313,7 +313,6 @@ main .myProject{
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    margin-bottom: 31px;
     text-align: center;
 
     border-radius: 20px;
@@ -352,7 +351,7 @@ main .projects .project1{
     max-width: 461px;
     height: 186px;
 
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 20px;
     background-color: #302F3D;
 
