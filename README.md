@@ -34,7 +34,7 @@ O projeto possui a seguinte estrutura de diretórios:
 
 ## Responsividade
 
-O portfolio ainda não está totalmente responsivo, mas estou trabalhando para torná-lo compatível com diferentes dispositivos e tamanhos de tela.
+O portfolio agora está totalmente responsivo e compatível com diferentes dispositivos e tamanhos de tela.
 
 ## Contribuição
 
