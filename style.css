@@ -10,6 +10,7 @@
 body{
     background-color: #22212C;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
@@ -341,7 +342,7 @@ main .myProject span{
 main .projects{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 
     max-width: 952px;
 }
@@ -496,6 +497,7 @@ main .post{
 /* Estilos para a imagem dentro do elemento .post */
 main .post img{
     width: 128px;
+    max-width: 100%;
     height: 128px;
 
     border-radius: 50%;
